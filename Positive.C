@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-int a;
-scanf("%d",&a);
-  if(a==0)
+int number;
+scanf("%d",&number);
+  if(number==0)
     printf("zero");
-  elseif(a>0)
+  elseif(number>0)
     printf("positive");
   else 
     printf("negative");
